@@ -1,0 +1,12 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    color: blue;
+    background-color: gold;
+}
+.subtitle{
+    /* color:rgba(red, green, blue, alpha); */
+    color: rgb(52, 152, 219);
+    background-color: #F7DC6F;
+}
