@@ -1,0 +1,41 @@
+/*All Elements selector*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Elements selector*/
+p{
+    font-size: 15px;
+}
+/*Id selector*/
+#testtext{
+    color: blue;
+}
+/*class selector*/
+.testtext{
+    display: block;
+    border: 0 auto;
+    color: purple;
+}
+/*class Element selector*/
+span.testtext{
+    color: green;
+}
+/*element element*/
+.section .content1{
+    font-size: 17px;
+}
+.section div{
+    background-color: gold;
+}
+/*element > element*/
+.section > div{
+    border: 2px solid black;
+}
+/*element + element*/
+.content2 h3 + p{
+    color: blue;
+}
+/*element ~ element*/
+.content3 h3 ~ p{
+    color: blue;
+}
