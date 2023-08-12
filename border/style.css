@@ -1,0 +1,21 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.test {
+    color: white;
+    background-color: #1976D2;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: blue; */
+
+    border: 4px dashed #E1F5FE;
+    /* border-left-color: #E91E63 ; */
+    border-left: 5px solid #E91E63;
+}
+.square{
+    background-color: #E91E63;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
