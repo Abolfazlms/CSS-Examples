@@ -1,0 +1,10 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    max-width: 500px;
+    min-width: 10rem;
+
+    max-height: 100vh ;
+    min-height: 50px;
+}
