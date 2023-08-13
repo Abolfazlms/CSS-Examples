@@ -16,6 +16,7 @@ div{
     margin: 10px 5px 15px;
     /*margin : value(top) value(right) value(left) value(bottom)*/
     margin: 10px 5px 10px 5px;
+    border: 5px solid  #00838F;
 }
 .box2{
     background-color:#00838F ;
@@ -29,4 +30,6 @@ div{
     padding: 10px 5px 15px;
     /*padding : value(top) value(right) value(left) value(bottom)*/
     padding: 10px 15px 10px 15px;
+
+    border: 5px solid  #00796B;
 }
