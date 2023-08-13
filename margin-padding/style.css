@@ -7,7 +7,7 @@ div{
 }
 .box1{
     background-color: #00796B;
-    
+    color: white;
     /*margin : value*/
     margin: 15px;
     /*margin : value(top, bottom) value(right, left)*/
@@ -19,4 +19,14 @@ div{
 }
 .box2{
     background-color:#00838F ;
+    color: white;
+
+    /*padding : value*/
+    padding: 15px;
+    /*padding : value(top, bottom) value(right, left)*/
+    padding: 10px 15px;
+    /*padding : value(top) value(right, left) value(bottom)*/
+    padding: 10px 5px 15px;
+    /*padding : value(top) value(right) value(left) value(bottom)*/
+    padding: 10px 15px 10px 15px;
 }
