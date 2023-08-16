@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    margin: 30px;
+    padding: 15px;
+    background-color: #1976D2;
+    border-radius: 15px;
+    color: white;
+    width: 500px;
+    /* margin: 0 auto; */
+}
+h1{
+    font-size:32px;
+    font-weight: 500;
+    font-style: normal;
+}
+p{
+    font-style: italic;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.link:visited{
+    color: #303F9F;  
+}
+.link:hover{
+    color: #E91E63;
+}
+.link:active{
+    background-color: #E91E63;
+}
+input:focus{
+   color: #1976D2;
+   outline-color: #E91E63;
+}
+.title:hover ~p {
+    color: #303F9F;
+}
