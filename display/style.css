@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white; 
+    background-color: #42A5F5;       
+}
+div{
+    margin: 50px auto;
+    padding: 15px;
+    background-color: #303F9F;
+    color: white;
+    width: 500px;
+    border-radius: 10px;    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link1{
+    display: block;
+}
+.link2{
+    display: inline-block;
+    margin: 10px;
+}
+.link3{
+    display: none;
+}
+.link4{
+    visibility: hidden;
+}
+.link5{
+    visibility: visible;
+}
