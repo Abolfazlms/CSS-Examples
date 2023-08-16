@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;        
+}
+div{
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #1976D2;
+    color: white;
+    width: 500px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.list1 {
+    margin-top: 10px;
+    /* list-style-image: url("./images/icon.svg"); */
+    list-style-image: url("https://icongr.am/clarity/check-circle.svg?size=16&color=ffffff");
+    list-style-position: inside;
+}
+.list2{
+    margin-top: 10px;
+    background-color: #303F9F;
+    padding: 5px;
+    padding-left: 40px;
+    list-style-position: inside;
+}
+.list2 li{
+    border: 2px solid #5C6BC0;
+    background-color: #5C6BC0;
+    color: white;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+.link :hover{
+    color: #E91E63;   
+}
