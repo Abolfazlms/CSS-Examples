@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1976D2;
+}
+div{
+    padding: 50px;
+    background-color: white;
+}
+.box1,
+.box2{
+    height: 200px;
+    width: 350px;
+    color: black;
+    padding: 10px;
+    margin: 15px auto;
+}
+.box1{    
+    /* overflow: auto;*/
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    overflow-y:auto ;    
+}
+.box2{   
+    overflow: scroll;    
+}
