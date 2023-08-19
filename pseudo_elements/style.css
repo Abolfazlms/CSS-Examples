@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+.title{
+    position: relative;
+    padding-left:27px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/* .title::before{
+    content:"this content added with pseudo element";
+}
+.title::after{
+    content:"and this content also added with pseudo element";
+} */
+.title::after{
+    content:"";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-color: #1E88E5;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+}
+.price{
+    position: relative;
+}
+.price::before{
+    content:"";
+    position: absolute;
+    width: 110px;
+    left: 0;
+    top: 50%;
+    border: 2px solid black;
+}
