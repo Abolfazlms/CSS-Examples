@@ -5,6 +5,10 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+::selection{
+    color: #fff;
+    background-color: #C2185B;
+}
 .container {
     width: 1280px;
     margin-right: auto;
@@ -39,11 +43,15 @@ body{
 .price{
     position: relative;
 }
-.price::before{
+.price::after{
     content:"";
     position: absolute;
-    width: 110px;
-    left: 0;
-    top: 50%;
-    border: 2px solid black;
+    display: block;
+    width: 100%;   
+    height: 2px; 
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #1E88E5;
 }
