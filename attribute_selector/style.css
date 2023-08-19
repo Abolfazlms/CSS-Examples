@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* [Attribute] */
+.container [href] {
+    text-decoration: none;
+}
+/* [Attribute=value] */
+[type = email]{
+    border: 2px solid gold;
+}
+/* [Attribute^=value] */
+[href^="www."]{
+    color: blue;
+}
+/* [Attribute$=value] */
+[href$=".ir"]{
+    color: red;
+}
