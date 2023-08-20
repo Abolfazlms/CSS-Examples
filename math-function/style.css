@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.container{
+    width:1280px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:  #1976D2;
+}
+.box{
+    /* width: calc(100% - 10px); */
+    /* width: min(220px, 10px, 10rem, 50%); */
+    /* width: max(220px, 10px, 10rem, 50%); */
+    /* width: min(220px, 50%); */
+    /* clamp(min, mid, max) */
+    /* width: clamp(200px, 400px, 800px); */
+    width: clamp(200px, 50%, 500px);
+    height: 300px;
+    background-color: #ffd700;
+}
