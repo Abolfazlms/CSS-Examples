@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.container{
+    width: 1280px;
+    margin: 50px auto;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #00796B;
+    /* transition: all 250ms; */
+    /* transition: width 250ms; */
+    transition: all 250ms ease-in 50ms;
+}
+.box:hover{
+    background-color: #0288D1;
+    /* width: 400px ; */
+}
